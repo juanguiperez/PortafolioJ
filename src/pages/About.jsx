@@ -36,7 +36,7 @@ function About() {
       </section>
 
       <footer className="footer">
-        <p>&copy; {new Date().getFullYear()} Christopher - Todos los derechos reservados.</p>
+        <p>&copy; 2025 Juan ´Perez - Todos los derechos reservados.</p>
       </footer>
     </div>
   );

@@ -26,7 +26,7 @@ function Projects() {
       </section>
 
       <footer className="footer">
-        <p>&copy; 2025 Christopher - Todos los derechos reservados.</p>
+        <p>&copy; 2025 Juan Perez - Todos los derechos reservados.</p>
       </footer>
     </div>
   );
