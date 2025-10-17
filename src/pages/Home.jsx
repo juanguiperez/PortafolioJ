@@ -2,7 +2,8 @@ import '../styles/pages/home.css';
 import Header from '../components/molecules/Header';
 import Button from '../components/atoms/Button'
 import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa';
-// import photoMe from '../assets/img/me.webp'
+
+import photoMe from '../assets/img/me.webp'
 
 function Home() {
   return (
@@ -11,8 +12,7 @@ function Home() {
       <section>
         <h2>Bienvenido a mi Portafolio</h2>
         <div className="profile-image">
-            <a href="https://thispersondoesnotexist.com/" target="_blank" rel="noopener noreferrer"></a>
-          {/* <img src={photoMe} alt="Foto de juan" /> */}
+          <img src={photoMe} alt="Foto de juan" />
         </div>
         <p>Soy un desarrollador web con experiencia en React, Vite y diseño basado en Atomic Design. En este Portafolio podrás explorar mis proyectos y aprender más sobre mí.</p>
       </section>
